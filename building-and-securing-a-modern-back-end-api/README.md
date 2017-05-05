@@ -7,12 +7,10 @@ APIs are an emerging technology for integrating applications using web technolog
 create an open architecture for sharing functionality and data between
 applications.
 
-The problem with APIs is that they often provide a roadmap describing the underlying implementation of an application—details that would otherwise
+The problem with APIs is that they often provide a roadmap describing the underlying implementation of an application details that would otherwise
 be buried under layers of web app functionality. This can give hackers valuable clues that could lead to attack vectors they might otherwise overlook.
 
-APIs tend to be extremely clear and self-documenting at their best, providing insight into internal objects and even internal database structure—all
-valuable intelligence for hackers.
-But increased visibility isn’t the only risk APIs introduce. Increasing the number of potential calls also increases the attack surface, meaning that a hacker simply has more to exploit. Risk increases with opportunity.
+APIs tend to be extremely clear and self-documenting at their best, providing insight into internal objects and even internal database structure all valuable intelligence for hackers.But increased visibility isn’t the only risk APIs introduce. Increasing the number of potential calls also increases the attack surface, meaning that a hacker simply has more to exploit. Risk increases with opportunity.
 
 There are three main attack vectors that hackers target most frequently with APIs. Understanding these will help you to build
 safer APIs.
@@ -23,7 +21,7 @@ safer APIs.
 
 Parameter attacks exploit the data sent into an API, including URL, query parameters, HTTP headers, and/or post content.
 
-The most common of which is a SQL injection—attempt to manipulate a systemby providing it with inputs that exploit behavior of applications and the infrastructure that supportsthem (such as databases).
+The most common of which is a SQL injection attempt to manipulate a systemby providing it with inputs that exploit behavior of applications and the infrastructure that supportsthem (such as databases).
 
 These normally result from developers not carefully checking input into an application. And in contrast to many web apps, APIs often
 clearly identify a parameter’s underlying usage by its name, offering enticing clues to even the casual attacker. 
