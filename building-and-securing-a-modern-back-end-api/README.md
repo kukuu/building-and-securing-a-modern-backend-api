@@ -2,7 +2,6 @@
 
 #  Strategies for Securing APIs - Applications on nodejs
 
-#### 1. What are APIs
 
 APIs are an emerging technology for integrating applications using web technology.  APIs allow developers to
 create an open architecture for sharing functionality and data between
