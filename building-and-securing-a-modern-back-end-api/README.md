@@ -21,7 +21,7 @@ safer APIs.
 
 Parameter attacks exploit the data sent into an API, including URL, query parameters, HTTP headers, and/or post content.
 
-The most common of which is a SQL injection attempt to manipulate a systemby providing it with inputs that exploit behavior of applications and the infrastructure that supportsthem (such as databases).
+The most common of which is a SQL injection attempt to manipulate a system by providing it with inputs that exploit behavior of applications and the infrastructure that supportsthem (such as databases).
 
 These normally result from developers not carefully checking input into an application. And in contrast to many web apps, APIs often
 clearly identify a parameter’s underlying usage by its name, offering enticing clues to even the casual attacker. 
